@@ -1,0 +1,1 @@
+streamlit run "C:\Users\santo\OneDrive\Desktop\Multiple Diseases Prediction using Machine Learning\Multiple Diseases Prediction local.py"
