@@ -11,18 +11,18 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-#diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-#heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-#parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-#breast_cancer_data_model = pickle.load(open('breast_cancer_data_model.sav', 'rb'))
+breast_cancer_data_model = pickle.load(open('breast_cancer_data_model.sav', 'rb'))
 
-diabetes_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/diabetes_model.sav','rb'))
-heart_disease_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/heart_disease_model.sav','rb'))
-parkinsons_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/parkinsons_model.sav','rb'))
-breast_cancer_data_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/breast_cancer_data_model.sav', 'rb'))
+#diabetes_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/diabetes_model.sav','rb'))
+#heart_disease_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/heart_disease_model.sav','rb'))
+#parkinsons_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/parkinsons_model.sav','rb'))
+#breast_cancer_data_model = pickle.load(open('C:/Users/santo/OneDrive/Desktop/Multiple Diseases Prediction using Machine Learning/breast_cancer_data_model.sav', 'rb'))
 
 # sidebar for navigation
 
